@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+
+header{
+    width: 100%;
+    margin-left: 20px;
+    position: relative;
+    transition: all .5s;
+
+}
+.title_box{
+    overflow: hidden;
+}
+
+.title_box .title{
+    font-family: Futura;
+    font-weight: bold;
+    font-size:30px ;
+    color: #E47A13;
+    border-bottom: 3px solid #E47A13 ;
+    float: left;
+    width: 250px;  
+}
+.banner{
+    position: relative;
+    color:#707070
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.ul1{
+    position: absolute;
+}
+.ul2{
+    position: absolute;
+    top: 77px;
+    
+}
+
+.nav a{
+    color: #707070;
+    text-decoration: none;
+}
+.nav ul li{
+    list-style: none;
+    float: left;    
+    margin: 0 40px 0 40px;
+}
+.banner{
+    margin-top: 40px;
+}
+.banner .text{
+    font-weight: bold;
+    width: 60%;
+    margin-left: 20px;
+
+}
+.banner  img{
+    width: 100%;
+  
+}
+.menu{
+    position: absolute;
+    top: 9px;
+    right:30px;
+}
+.menu img{
+    width: 46px;
+    
+}
+.a{
+    width: 45%;
+    background-color: #E47A13;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.content{
+    margin-left: 20px;
+}
+.content ul{
+    font-family: Futura;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    left: -20px;
+    font-size: 14px;
+    font-weight: 1;
+    color:#707070
+}
+.content ul li{
+    list-style: none;
+    margin-top: 20px;
+    flex: 50%;
+}
+thead{
+    font-weight: 1000;
+}
+
+.content ul table {
+    width: 100%;
+}
+.content ul table {
+    border-spacing: 20px;
+}
+.otherinfo{
+    margin-left: 20px;
+    
+}
+
+.otherinfo .title{
+    color: #707070;
+    margin-top: 20px;
+}
+.info{
+    color: #707070;
+    margin-top: 20px;
+    width: 30%;
+}
+.mapbox{
+    display: flex;
+    justify-content: flex-start;
+}
+.mapbox ul{
+    list-style: none;
+    margin: 20px;
+    margin-top: 17px;
+
+}
+.mapbox ul li{
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 1;
+    
+}
+.mapbox .map{
+    margin-top: 20px;
+    width: 250px;
+}
+.map img{
+    width: 100%;
+}
+
+footer{
+    margin-left: 20px;
+    border-top: 3px solid #E47A13;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    
+    float: left;
+    list-style: none;
+    margin: 40px;
+    margin-top: 20px;
+}
+footer ul li img{
+    width: 40px;
+}
+
+footer ul a:nth-child(3) img{
+    width: 46px;
+}
+footer ul a:nth-child(4) img{
+    width: 46px;
+}
+
+.ul1 {
+
+    font-family: Futura;
+    font-weight: bold;
+    color: #707070;
+    font-size: 14px;
+}
+
+.text {
+    font-family: Futura;
+    font-weight: normal;
+    
+}
+.otherinfo {
+    font-family: Futura;
+    font-weight: normal;
+}
+.lis {
+    font-family: Futura;
+    font-weight: normal;
+    color: #707070;
+}
+
+.ul2 {
+    color: #707070;
+}
+
+@media screen and (max-width:609px){
+    .ul1{
+        display: none;
+    }
+    .ul2{
+        display: block;
+    }
+    .menu{
+        display:block;
+    }
+    .content ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+        position: relative;
+        left: -20px;
+    }
+    .banner .text{
+        width: 90%;
+    }
+    .info{
+        width: 90%;
+    }
+   
+    .banner{
+        margin-top: 20px;
+    }
+    .content ul li{
+        list-style: none;
+        margin-top: 20px;
+        flex: 100%;
+    }
+    footer ul li{
+        float: left;
+        list-style: none;
+        margin: 20px;
+        margin-top: 20px;
+    }
+
+    }
+  @media screen and (min-width:609px) {
+        .menu{
+            display:none;
+        }
+        header{
+            height:43px;
+        }
+        .ul1{
+            display: block;
+        }
+        .ul2{
+            display:none;
+        }
+      
+    
+
+  }
+
+ 
+      
+    
